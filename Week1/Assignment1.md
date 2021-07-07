@@ -94,8 +94,11 @@ This seems to be a very interesting topic , this is the first time i've heard of
  + ### [Auto Pytorch](https://www.automl.org/automl/autopytorch/)
 
  ` autoPyTorch = AutoNetClassification("tiny_cs", max_runtime=300, min_budget=30, max_budget=90)`
+ 
  ` autoPyTorch.fit(X_train, y_train, validation_split=0.3)`
+ 
  ` y_pred = autoPyTorch.predict(X_test)`
+ 
  ` print("Accuracy score", sklearn.metrics.accuracy_score(y_test, y_pred))`
 
  
