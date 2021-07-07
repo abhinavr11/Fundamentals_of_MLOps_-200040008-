@@ -32,23 +32,8 @@ So we take an example of a house price prediction model , what can be possible f
 Well all these things might come into consideration , asuming that the evaluator of this answer (you reading this) already know what goes on behind the scenes of a linear regression , I'll take the liberty of directly coming to the point that all the above mentioned factors would have specific weights . Some feature might have a larger weight than another depends totally on the case that we are dealing with .
 
 
- Weight     
-         ^
- 1200    |
- 1100    |
- 1000    |
-  900    |                 *                                  
-  800    |
-  700    |                                                     *
-  600    |
-  500    |                                   *
-  400    |    *   
-  300    |                                
-  200    |                                         
-  100    |                                                       
-    0    |________________________________________________________________> Features
-           **Area**    **Locality**    **No Of Rooms**    **Furnished**  
-                       
+![alt text]()
+
                         
                         
                         
