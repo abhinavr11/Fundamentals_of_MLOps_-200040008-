@@ -23,7 +23,7 @@ Taking MLOps a step further , AIOps tend to automate systems by by collecting pr
 
 ### *What is interpretation of a model?
 >From my understanding when humans easily understand the decisions a machine learning model makes, we have an “interpretable model”. In short, we want to know what caused a >specific decision. If we can tell how a model came to a decision, then that model is interpretable.
->> As per my understanding , Linear regression models can be best interpreted by taking a look at their weights ( mostly because its the most important part of the model that governs what the model will predict )
+>> As per my understanding , Linear regression models can be best interpreted by taking a look at their weights ( mostly because its the most important part of the model that governs what the model will predict ) <br>
 >> ![](images/eq.png)<br>
 >> ![](images/eq2.png)
 
