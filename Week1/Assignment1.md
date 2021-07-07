@@ -17,6 +17,10 @@ While MLOps' goal is bridging the gap between data scientists and operation team
 ### *Conclusion*
 Taking MLOps a step further , AIOps tend to automate systems by by collecting processing and observing intelligently the IT operations . AIOps have the capability to solve problems without human intervention , and is the future of IT Ops .
 
+<br>
+<br>
+<br>
+<br>
 
 
 # 2. Interpretable Machine Learning
@@ -40,7 +44,7 @@ Well all these things might come into consideration , asuming that the evaluator
                         
                         
                         
-<p> Above graph shows a very important aspect which could help a normal person to interpret that what does a linear model do . The graph shows that how much the predicted price is depended on the features , like "Locality" has a weight of 900 implying that it contributes most to the price of a house , in simpler words a noob could figure out that better the locality more the price , but a smart guy would make out that if he/she decides to compromise with the locality but instead go for a larger area they could still fit the house in their budget . And that is what is the whole point of interpreting a model , making it easy to analyze </p>
+<p> Above graph ( made by me for explanatory purposes )shows a very important aspect which could help a normal person to interpret that what does a linear model do . The graph shows that how much the predicted price is depended on the features , like "Locality" has a weight of 900 implying that it contributes most to the price of a house , in simpler words a noob could figure out that better the locality more the price , but a smart guy would make out that if he/she decides to compromise with the locality but instead go for a larger area they could still fit the house in their budget . And that is what is the whole point of interpreting a model , making it easy to analyze </p>
 
 ### ** Conclusion **
 This seems to be a very interesting topic , this is the first time i've heard of it but it surely would revolutionalize the field of Machine Learning by allowing researchers anc scientists to work together as its easy to understand how a model works . 
@@ -51,3 +55,55 @@ This seems to be a very interesting topic , this is the first time i've heard of
    Disadvantages 👎 : -Linear regression models can only represent linear relationships, i.e. a weighted sum of the input features
                       -Linear models are also often not that good regarding predictive performance
                       
+<br>
+<br>
+<br>
+<br>
+
+# Auto ML [Optional]
+ > Its about automating the whole procedure of Machine Learning from taking a raw dataset to deploying a model on it . 
+ > Since it contains a whole pipeline to deploy a ML model it must inculcate the MLOps techniques for overall better functioning , understandability and analysis of MlOps .
+
+ ## Tools for Auto ML -
+ 
+ + ### [AutoKeras](https://autokeras.com/?source=post_page---------------------------)
+
+   `import autokeras as ak` 
+   ` clf = ak.ImageClassifier() `
+   ` clf.fit(x_train, y_train) `
+   ` results = clf.predict(x_test)`   
+  
+ <p> Auto-Keras provides functions to automatically search for architecture and hyperparameters of deep learning models. </p>
+ <br>
+ 
+ + ### [Auto Sklearn](https://www.automl.org/automl/auto-sklearn/)
+ 
+  
+ ` import autosklearn.classification `
+  
+ ` cls = autosklearn.classification.AutoSklearnClassifier() `
+  
+ ` cls.fit(X_train, y_train) `
+  
+ ` predictions = cls.predict(X_test) `
+
+
+ <p> Auto-sklearn automatically searches for the right learning algorithm for a new machine learning dataset and optimizes its hyperparameters. </p>
+  <br>
+  
+ + ### [Auto Pytorch](https://www.automl.org/automl/autopytorch/)
+
+ ` autoPyTorch = AutoNetClassification("tiny_cs", max_runtime=300, min_budget=30, max_budget=90)`
+ ` autoPyTorch.fit(X_train, y_train, validation_split=0.3)`
+ ` y_pred = autoPyTorch.predict(X_test)`
+ ` print("Accuracy score", sklearn.metrics.accuracy_score(y_test, y_pred))`
+
+ 
+ <p>Auto-PyTorch automates  right architecture and hyperparameter settings by using multi-fidelity optimization and Bayesian optimization (BOHB) to search for the best settings. </p>
+ <br>
+ 
+ + ### [Auto Folio](url)
+ 
+ <p> AutoFolio uses algorithm configuration to optimize the performance of algorithm selection systems by determining the best selection approach and its hyperparameters.</p>
+ <br>
+ 
