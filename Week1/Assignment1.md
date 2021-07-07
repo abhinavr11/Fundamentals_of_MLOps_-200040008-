@@ -69,8 +69,11 @@ This seems to be a very interesting topic , this is the first time i've heard of
  + ### [AutoKeras](https://autokeras.com/?source=post_page---------------------------)
 
    `import autokeras as ak` 
+   
    ` clf = ak.ImageClassifier() `
+   
    ` clf.fit(x_train, y_train) `
+   
    ` results = clf.predict(x_test)`   
   
  <p> Auto-Keras provides functions to automatically search for architecture and hyperparameters of deep learning models. </p>
