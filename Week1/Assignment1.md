@@ -32,7 +32,7 @@ So we take an example of a house price prediction model , what can be possible f
 Well all these things might come into consideration , asuming that the evaluator of this answer (you reading this) already know what goes on behind the scenes of a linear regression , I'll take the liberty of directly coming to the point that all the above mentioned factors would have specific weights . Some feature might have a larger weight than another depends totally on the case that we are dealing with .
 
 
-![alt text]()
+![alt text](https://github.com/abhinavr11/Fundamentals_of_MLOps_-200040008-/tree/main/Week1/graph.png?raw=true)
 
                         
                         
