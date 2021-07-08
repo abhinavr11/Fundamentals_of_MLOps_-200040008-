@@ -3,4 +3,4 @@
 Started Reading about AMAZON S3 
 
 ![](images/Screenshot1.png)
-![](images/Screenshot2.png)
+![](images/Snip.png)
