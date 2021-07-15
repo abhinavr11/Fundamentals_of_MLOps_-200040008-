@@ -1,6 +1,7 @@
 
  ## Link
 >https://github.com/abhinavr11/MLOps_Assignment
+>> the src folder contains the exp.py file for both branches while the metrics and all other csv files are in s3 bucket
 
 
 ## Steps and Commans involved in PART !
