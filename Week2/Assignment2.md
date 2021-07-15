@@ -5,7 +5,8 @@
 
 ## Steps and Commans involved in PART !
 * First we create the bucket and github repo as given in the assignment
-* `$ mkdir mlops_dvc`
+* ->
+`$ mkdir mlops_dvc`
  
 `$ cd mlops_dvc`
 
@@ -39,5 +40,21 @@
 >"Accuracy": 0.9992802219023208, "f1 Score": 0.9992663256896973
 
 ### expt2_rf
->"Accuracy": 0.9992802219023208, "f1 Score": 0.9992663256896973
+>"Accuracy": 0.9996664442961974, "f1 Score": 0.9996520057812976
 
+
+### Two Folders one for each experiment
+-> datastore for experiment one 
+-> dvcstore for experiment two
+
+![](images/both.png)
+<br>
+
+### Decesion Tree (exp1_dt)
+-> Contains [ creditcard.csv , model.pkl , test.csv , train.csv , acc_f1.json ]
+![](images/exp1_dt.png)
+<br>
+<br>
+### Random Forest (expt2_rf)
+-> Contains [ creditcard.csv , model.pkl , test.csv , train.csv , acc_f1.json ]
+![](images/expt2_rf.png)
