@@ -35,3 +35,11 @@ Decision Tree Classifier	   | 0.7299	  | 0.8187              |
 `Recall -> 0.782608695652174`
 
 `F1 - Score -> 0.8`
+
+
+<br>
+<br>
+<br>
+Here are the uploaded and tracked files in S3 bucket 
+[ creditcard.csv , blended_expt1.pkl , acc_expt1.json ] 
+![](images/aws.png)
