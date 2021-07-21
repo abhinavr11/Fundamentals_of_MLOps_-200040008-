@@ -39,6 +39,7 @@ Decision Tree Classifier	   | 0.7299	  | 0.8187              |
 `F1 - Score -> 0.8`
 
 <br>
+
 ### Here are the uploaded and tracked files in S3 bucket :
 
 ![aws](images/aws.png)
