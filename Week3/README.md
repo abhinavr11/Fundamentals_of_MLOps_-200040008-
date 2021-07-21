@@ -27,10 +27,7 @@ Decision Tree Classifier	   | 0.7299	  | 0.8187              |
 <br>
 <br>
 
-### Here are the uploaded and tracked files in S3 bucket :
 
-<br>
-![aws](images/aws.png)
 
 ### Metrics
 `Accuracy -> 0.9993679997191109`
@@ -41,5 +38,7 @@ Decision Tree Classifier	   | 0.7299	  | 0.8187              |
 
 `F1 - Score -> 0.8`
 
+<br>
+### Here are the uploaded and tracked files in S3 bucket :
 
-
+![aws](images/aws.png)
