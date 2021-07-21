@@ -19,11 +19,11 @@ Decision Tree Classifier	   | 0.7299	  | 0.8187              |
 
 ## PLOTS ->
 ### Precision-Recall Plot
-[Precision-Recall Plot](url)
+[Precision-Recall Plot]("images/pr.png")
 <br>
 <br>
 ### Confusion Matrix
-[Confusion Matrix](url)
+[Confusion Matrix]("images/confusion_matrix.png")
 <br>
 <br>
 
