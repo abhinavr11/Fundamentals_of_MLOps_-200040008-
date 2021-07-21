@@ -40,6 +40,7 @@ Decision Tree Classifier	   | 0.7299	  | 0.8187              |
 <br>
 <br>
 <br>
-Here are the uploaded and tracked files in S3 bucket 
-[ creditcard.csv , blended_expt1.pkl , acc_expt1.json ] 
-![](images/aws.png)
+Here are the uploaded and tracked files in S3 bucket :
+{ creditcard.csv , blended_expt1.pkl , acc_expt1.json }
+<br>
+![aws](images/aws.png)
