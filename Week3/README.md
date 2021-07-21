@@ -28,7 +28,10 @@ Decision Tree Classifier	   | 0.7299	  | 0.8187              |
 <br>
 
 ### Metrics
-Accuracy -> 0.9993679997191109
-Precision -> 0.8181818181818182
-Recall -> 0.782608695652174
-F! - Score -> 0.8
+`Accuracy -> 0.9993679997191109`
+
+`Precision -> 0.8181818181818182`
+
+`Recall -> 0.782608695652174`
+
+`F1 - Score -> 0.8`
