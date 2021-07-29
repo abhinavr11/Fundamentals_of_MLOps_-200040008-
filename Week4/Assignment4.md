@@ -11,18 +11,18 @@
 ### Mlflow working
 ![check](img/1.png)
 
-<br>
+
 ### FastAPI working
 ![check](img/2.png)
 
-<br>
+
 ### Deployed models on Amazon S3
 ![check](img/3.png)
 
-<br>
+
 ### Predictions of et through api
 ![check](img/et.png)
 
-<br>
+
 ### Predictions of knn through api
 ![check](img/knn.png)
