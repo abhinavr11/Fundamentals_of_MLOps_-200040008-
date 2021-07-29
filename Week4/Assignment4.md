@@ -6,7 +6,8 @@
 2. Fine tuned the top 2 models(et,knn) based on F1 score
 3. Deployed models on AWS S3 bucket and made it accessible locally by setting up env vars
 4. Hosted the models locally and created an API endpoint using fastapi 
-5. Tested both the models on unseen dataset to get predictions
+5. Added a test condition to check for correct data in the test scv file coming through api , and an error will be raised if its not valid
+6. Tested both the models on unseen dataset to get predictions
 
 ### Mlflow working
 ![check](img/1.png)
